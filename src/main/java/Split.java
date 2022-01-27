@@ -56,6 +56,7 @@ public class Split {
         }
         System.out.println("El archivo " + fileName + " tiene " + contadorPalabras );
         System.out.println( "Palabras y " + "el progrma duro "+ time +" ms en correr");
+        //Con este metodo duro 184 ms, por lo que duro 102 ms mas que el metodo Tokenizer
 
     }
 

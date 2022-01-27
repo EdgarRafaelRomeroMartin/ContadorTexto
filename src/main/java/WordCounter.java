@@ -51,5 +51,6 @@ public class WordCounter {
         System.out.printf("El archivo %s tiene %,8d palabras. " , fileName, contadorPalabras );
         System.out.printf(" Numero de lineas: %,8d%n", st.lineno() );
         System.out.printf("Tiempo procesamiento (milisegundos): %d %n" , time);
+        //Con este metodo duro 82 ms, por lo que duro 102 ms menos que el metodo plit
     }
 }
